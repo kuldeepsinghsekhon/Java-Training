@@ -4,7 +4,7 @@
  * Created on March 1, 2008, 10:55 PM
  */
 
-package projects.shufflegame;
+package projects.games.shuffle;
 
 import java.io.*;
 import java.lang.*;

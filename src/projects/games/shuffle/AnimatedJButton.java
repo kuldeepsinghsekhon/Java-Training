@@ -4,7 +4,7 @@
  * Created on March 1, 2008, 1:15 AM
  */
 
-package projects.shufflegame;
+package projects.games.shuffle;
 
 import java.awt.Cursor;
 import java.awt.event.ActionListener;
