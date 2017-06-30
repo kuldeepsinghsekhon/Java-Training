@@ -1,0 +1,44 @@
+class ThreadOne extends Thread{
+	ThreadOne(String msg){
+		super(msg);
+	}
+	@Override
+	public void run(){
+	for (int i=1;i<10;i++){
+		if(i==3)yield();
+		try {
+			if(i==6)sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println(Thread.currentThread().getName()+"Thread running"+i);
+	}
+	}
+}
+class ThreadTwo extends Thread{
+	ThreadTwo(String msg){
+		super(msg);
+	}
+	@Override
+	public void run(){
+	
+	for (int i=1;i<10;i++){
+		if(i==6)stop();
+		System.out.println(Thread.currentThread().getName()+"Thread running"+i);
+	}
+	}
+}
+public class TreadMethods{
+
+	public static void main(String[] args) {
+
+		ThreadOne t_one= new ThreadOne(" First");
+		ThreadTwo t_two=new ThreadTwo("Second ");
+		
+		t_one.start();
+		t_two.start();
+		
+	}
+
+}
