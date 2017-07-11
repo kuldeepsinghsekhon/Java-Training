@@ -1,3 +1,4 @@
+package inheritance;
 public class MethodOverloading{
 	public double area(double k, double l)
 	{
