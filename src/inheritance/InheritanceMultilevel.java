@@ -1,4 +1,4 @@
-package inheritancs;
+package inheritance;
 class InheritanceA{
 	public void messageA(){
 		System.out.println("show from classA and messageA");
