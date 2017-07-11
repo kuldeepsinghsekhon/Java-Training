@@ -1,3 +1,4 @@
+package console;
 import java.io.Console;
 public class InputByConsole {
 	public static void main(String[] args) {
