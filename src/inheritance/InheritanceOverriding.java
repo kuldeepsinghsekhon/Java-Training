@@ -1,3 +1,4 @@
+package inheritance;
 class Parent{
 	int i=10;
 	public void message(){
