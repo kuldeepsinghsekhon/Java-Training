@@ -1,9 +1,6 @@
 package windows.resources;
 import java.io.*;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.*;
- 
+
 public class ProgramFinder 
 {
  

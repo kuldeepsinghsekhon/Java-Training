@@ -1,4 +1,4 @@
-package Ifelse;
+package control;
 public class Ifelse {
 	public static void main(String arg[]) {
 		int marks = 90;

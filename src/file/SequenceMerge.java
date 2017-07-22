@@ -1,4 +1,4 @@
-
+package file;
 import java.io.*;
 public class SequenceMerge {
     public static void main(String[] args) throws IOException {
